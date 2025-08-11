@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Quote Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="app-title">AI Quote Generator</h1>
+            <p class="app-subtitle">Discover inspiration with every click</p>
+        </header>
+        
+        <main class="quote-container">
+            <div class="quote-card">
+                <div class="quote-icon">❝</div>
+                <blockquote id="quote-text" class="quote-text">
+                    Click the button below to get your first inspirational quote!
+                </blockquote>
+                <cite id="quote-author" class="quote-author">- Ready to inspire you</cite>
+            </div>
+            
+            <button id="new-quote-btn" class="new-quote-btn">
+                <span class="btn-text">Get New Quote</span>
+                <div class="btn-loading" style="display: none;">
+                    <div class="spinner"></div>
+                </div>
+            </button>
+        </main>
+        
+        <footer class="footer">
+            <p>Powered by <a href="https://quotable.io" target="_blank" rel="noopener">Quotable API</a></p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html> 
